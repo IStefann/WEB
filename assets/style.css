@@ -1,0 +1,77 @@
+:root {
+	--tomato-red: #c0392b;
+	--dough-beige: #f8f1e4;
+	--cheese-yellow: #f1c40f;
+	--olive: #556b2f;
+	--charcoal: #2c3e50;
+}
+.red {
+	color: var(--tomato-red) !important;
+}
+.bg-red {
+	background-color: var(--tomato-red) !important;
+}
+
+.beige {
+	color: var(--dough-beige) !important;
+}
+.bg-beige {
+	background-color: var(--dough-beige) !important;
+}
+
+.yellow {
+	color: var(--cheese-yellow) !important;
+}
+.bg-yellow {
+	background-color: var(--cheese-yellow) !important;
+}
+
+.olive {
+	color: var(--olive) !important;
+}
+.bg-olive {
+	background-color: var(--olive) !important;
+}
+
+.charcoal {
+	color: var(--charcoal) !important;
+}
+.bg-charcoal {
+	background-color: var(--charcoal) !important;
+}
+
+.white {
+	color: white !important;
+}
+.bg-white {
+	background-color: white !important;
+}
+
+nav a:not(.active) {
+	color: var(--charcoal);
+}
+nav a:hover {
+	color: var(--tomato-red) !important;
+}
+
+footer {
+	background-color: #4d6560;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer-column {
+	display: flex;
+	flex-direction: column;
+}
+
+footer a {
+	text-decoration: none;
+	color: var(--dough-beige);
+}
+
+footer a:hover {
+	color: var(--cheese-yellow);
+}
